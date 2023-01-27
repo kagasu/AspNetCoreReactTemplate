@@ -1,6 +1,5 @@
 import './App.css'
 import { useState, SyntheticEvent } from 'react'
-import { Container } from 'react-bootstrap'
 import { useNavigate, Outlet } from 'react-router-dom'
 import { classNames } from 'primereact/utils'
 import { Menubar } from 'primereact/menubar'
@@ -55,9 +54,9 @@ export function App() {
     <>
       <Menubar model={items} end={menubarEnd} />
 
-      <Container>
+      <div className='container'>
         <Outlet />
-      </Container>
+      </div>
     </>
   )
 }
