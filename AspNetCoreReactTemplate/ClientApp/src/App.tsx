@@ -28,6 +28,16 @@ export function App() {
       command: () => {
         setActiveId('Config')
         navigate('/config')
+      },
+    },
+    {
+      id: 'HelloWorld',
+      label: 'HelloWorld',
+      className: (activeId === 'HelloWorld') ? 'active-menuitem' : undefined,
+      icon: 'pi pi-fw pi-file',
+      command: () => {
+        setActiveId('HelloWorld')
+        navigate('/HelloWorld')
       }
     }
   ]
