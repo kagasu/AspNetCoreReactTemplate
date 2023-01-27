@@ -1,0 +1,36 @@
+*:focus {
+  /* クリック時の境界線を消す */
+  box-shadow: none !important;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: var(--surface-a);
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.p-menubar{
+  /* 角の丸みを消す */
+  border-radius: 0px !important;
+}
+
+.p-menuitem-link {
+  /* MenubarのPadding調整 */
+  padding: 0.5rem !important;
+}
+
+.active-menuitem {
+  font-weight: 700;
+  color: var(--primary-color);
+}

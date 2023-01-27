@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreReactTemplate", "AspNetCoreReactTemplate\AspNetCoreReactTemplate.csproj", "{B88AE729-5DC7-436A-B71B-AFD55BED422B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B88AE729-5DC7-436A-B71B-AFD55BED422B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88AE729-5DC7-436A-B71B-AFD55BED422B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88AE729-5DC7-436A-B71B-AFD55BED422B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88AE729-5DC7-436A-B71B-AFD55BED422B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BAAC489-67A8-4753-AE95-2757E863F5EA}
+	EndGlobalSection
+EndGlobal
