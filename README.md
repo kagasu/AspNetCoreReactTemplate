@@ -5,3 +5,4 @@
 - [Vite](https://vitejs.dev/)
 - [PrimeReact](https://www.primefaces.org/primereact/)
 - [Valtio](https://github.com/pmndrs/valtio)
+- [ESLint](https://eslint.org/)
